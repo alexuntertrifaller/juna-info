@@ -1,0 +1,9 @@
+:root { color-scheme: light dark; --accent: #f26a1b; }
+body { font: 17px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; max-width: 46rem; margin: 0 auto; padding: 2rem 1.25rem 4rem; }
+h1 { font-size: 2rem; margin: 0 0 .25rem; }
+h1 span { color: var(--accent); }
+h2 { font-size: 1.2rem; margin-top: 2rem; }
+nav { margin: 1rem 0 2rem; display: flex; gap: 1.25rem; flex-wrap: wrap; }
+a { color: var(--accent); }
+.en { border-top: 1px solid #8884; margin-top: 3rem; padding-top: 1rem; font-size: .95rem; opacity: .85; }
+footer { margin-top: 3rem; font-size: .9rem; opacity: .7; }

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Datenschutzerklärung – juna</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1><span>juna</span> · Datenschutzerklärung</h1>
+<nav><a href="index.html">Startseite</a><a href="nutzungsbedingungen.html">Nutzungsbedingungen</a></nav>
+
+<p>Stand: 15. November 2026</p>
+
+<h2>Wer verantwortlich ist</h2>
+<p>Alex Untertrifaller, Kontakt über <a href="https://github.com/alexuntertrifaller/juna-info/issues">GitHub</a>. juna ist eine private App für das eigene Zuhause und wird nur von den Bewohnern dieses Haushalts genutzt.</p>
+
+<h2>Welche Daten juna verarbeitet</h2>
+<p>juna läuft auf einem eigenen Rechner im Heimnetz. Dort liegen die Zustände und der Verlauf der Geräte im Haus (z. B. Licht an/aus, Temperaturen), die Konfiguration der App und die Anmeldungen der Bewohner. Diese Daten verlassen das Haus nur in den unten beschriebenen Fällen.</p>
+
+<h2>Google-Nutzerdaten</h2>
+<p><strong>Google Drive:</strong> Wenn ein Bewohner juna mit seinem Google Drive verbindet, erhält juna ausschließlich den Bereich <code>https://www.googleapis.com/auth/drive.file</code>. Damit kann juna nur Dateien sehen, anlegen und löschen, die juna selbst angelegt hat – den übrigen Inhalt des Drive sieht juna nicht. juna nutzt diesen Zugriff ausschließlich, um verschlüsselte Sicherungen der eigenen Konfiguration und des Geräteverlaufs im Ordner „juna-Sicherungen“ abzulegen, aufzulisten, wiederherzustellen und alte Sicherungen zu löschen. Die Sicherungen sind vor dem Hochladen vollständig mit einem Passwort verschlüsselt, das nur der Haushalt kennt; Google sieht nur Dateinamen, Größe und Zeitpunkte.</p>
+<p>Der Zugang (Erneuerungstoken) wird nur auf dem eigenen Rechner im Haus gespeichert und an niemanden weitergegeben. Er lässt sich jederzeit in juna („Trennen“) oder unter <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a> widerrufen; danach löscht juna ihn.</p>
+<p><strong>Google Home:</strong> Wird Google Home verknüpft, übermittelt juna an Google Namen, Räume und Zustände der dafür freigegebenen Geräte und führt Befehle aus Google Home aus. Die Verknüpfung lässt sich in juna oder in der Google-Home-App trennen.</p>
+<p>juna verkauft keine Daten, nutzt sie nicht für Werbung und gibt sie nicht an Dritte weiter. Es gibt keine Analyse- oder Tracking-Dienste.</p>
+<p>Die Nutzung und Weitergabe von Informationen, die juna über Google-APIs erhält, an andere Apps hält sich an die <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, einschließlich der Anforderungen zur eingeschränkten Nutzung (Limited Use).</p>
+
+<h2>Speicherdauer und Löschung</h2>
+<p>Sicherungen in Google Drive löscht juna nach 60 Tagen automatisch (die neuesten bleiben). Nach dem Trennen bleiben bereits hochgeladene Dateien im eigenen Drive, bis man sie dort selbst löscht. Daten auf dem eigenen Rechner löscht der Haushalt selbst.</p>
+
+<h2>Deine Rechte</h2>
+<p>Du kannst Auskunft, Berichtigung und Löschung verlangen und Einwilligungen jederzeit widerrufen – eine Nachricht über den oben genannten Kontakt genügt.</p>
+
+<div class="en" lang="en">
+<h2>English summary</h2>
+<p>juna is a private app for a single household. If you connect Google Drive, juna requests only the <code>drive.file</code> scope and uses it solely to upload, list, restore and delete its own end-to-end encrypted backup files in a folder named “juna-Sicherungen”; it cannot see any other files. The refresh token is stored only on the household's own computer and is never shared. With Google Home, juna shares names, rooms and states of the devices the household chose to expose, and executes commands from Google Home. No data is sold, used for advertising or shared with third parties. You can revoke access at any time in juna or at myaccount.google.com/permissions.</p>
+<p>juna's use and transfer of information received from Google APIs to any other app will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+<p>Contact: via <a href="https://github.com/alexuntertrifaller/juna-info/issues">GitHub</a></p>
+</div>
+</body>
+</html>
